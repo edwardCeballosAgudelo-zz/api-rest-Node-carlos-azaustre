@@ -4,8 +4,10 @@
   "description": "Proyecto de API RESTful con Node.js y Express",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "edward ceballos agudelo",
   "license": "MIT",
@@ -18,9 +20,11 @@
     "jwt-simple": "^0.5.1",
     "moment": "^2.18.1",
     "mongoose": "^4.11.7",
-    "mongose": "0.0.2-security"
+    "mongose": "0.0.2-security",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
-  }
+  },
+  "snyk": true
 }
