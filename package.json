@@ -17,7 +17,7 @@
     "handlebars": "^4.0.10",
     "jwt-simple": "^0.5.1",
     "moment": "^2.18.1",
-    "mongoose": "^4.11.7",
+    "mongoose": "^5.12.3",
     "mongose": "0.0.2-security"
   },
   "devDependencies": {
